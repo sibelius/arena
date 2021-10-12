@@ -1,0 +1,22 @@
+{
+  "name": "arena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "es": "node -r esbuild-register",
+    "start": "yarn es ./src/index.ts"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.4",
+    "esbuild-register": "^3.0.0"
+  },
+  "dependencies": {
+    "bull": "^3.29.2",
+    "bull-arena": "^3.29.3",
+    "dotenv-safe": "^8.2.0",
+    "ioredis": "^4.27.11",
+    "koa": "^2.13.3",
+    "koa-express": "^1.1.0"
+  }
+}
